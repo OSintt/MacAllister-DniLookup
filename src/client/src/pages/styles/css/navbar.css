@@ -1,0 +1,29 @@
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand img {
+  width: 225px;
+}
+
+.nav-auth-container {
+  text-align: center;
+  border-bottom: 1px solid #333;
+  align-items: center;
+}
+.nav-auth-container div {
+  margin-left: 1em;
+}
+
+.nav-user-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0.5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid whitesmoke;
+}
+
+/*# sourceMappingURL=navbar.css.map */

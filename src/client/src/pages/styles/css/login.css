@@ -1,0 +1,40 @@
+.login-wrapper {
+  text-align: center;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper .login-container {
+  border-radius: 5px;
+  border: 2px solid whitesmoke;
+}
+.login-wrapper .login-container div {
+  text-align: center;
+}
+.login-wrapper input {
+  color: whitesmoke;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: 0;
+  background: none;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  
+}
+
+.submit-login-button {
+  margin-top: 0.5em;
+  height: vh;
+}
+
+.login-logo img {
+  width: 35%;
+}
+
+.hcaptcha-container {
+  margin-top: 1em;
+}
+
+/*# sourceMappingURL=login.css.map */

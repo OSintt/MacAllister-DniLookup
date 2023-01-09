@@ -1,0 +1,103 @@
+.search-container {
+  align-items: center;
+}
+
+.search-titles {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-input-container {
+  padding: 5px 2px;
+  display: inline;
+  border: 1px solid #333;
+  align-items: center;
+}
+.search-input-container .search-input-icon {
+  margin: 2px 5px;
+}
+.search-input-container input {
+  background: none;
+  outline: 0;
+  border: none;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.gender-select-container {
+  margin: 0 1em;
+}
+.gender-select-container select {
+  padding: 0.5em;
+  border: 1px solid #333;
+  background: none;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+}
+.gender-select-container option {
+  color: #333;
+}
+
+.personal-data-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+}
+
+.single-data-container, .single-data-container-alt {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #333;
+  padding: 1em 0;
+}
+.single-data-container .data-name, .single-data-container-alt .data-name {
+  grid-column: 1/2;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 1em;
+}
+
+.data-container {
+  margin-right: 1.5em;
+}
+.data-container h4 {
+  align-items: center;
+}
+.data-container h4 span {
+  margin-left: 5px;
+}
+.data-container .data {
+  flex-wrap: wrap;
+}
+.data-container pre {
+  padding: 0;
+  margin: 0;
+  word-break: break-all;
+}
+
+.single-data-container, .single-data-container-alt {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  border-bottom: 1px solid #333;
+  padding: 1em 0;
+
+}
+.data-name {
+  grid-column: 1/2;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 1em;
+}
+.domicilio-data-container {
+  display: bl;
+  flex-wrap: wrap;
+  padding: 1em 1em;
+
+
+
+}
+
+/*# sourceMappingURL=search.css.map */

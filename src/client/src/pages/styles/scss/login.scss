@@ -1,0 +1,41 @@
+@import '__vars';
+
+.login-wrapper {
+    
+    .login-container {
+        border-radius: 5px;
+        border: 2px solid $white;
+        div {
+            text-align: center;
+        }
+    }
+    text-align: center;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+        color: $white;
+        border: none;
+        border-bottom: 1px solid $muted;
+        outline: 0;
+        background: none;
+        margin: 1em;
+        padding: .5em;
+        border-radius: 5px;
+    }
+}
+
+.submit-login-button {
+    margin-top: .5em;
+}
+
+.login-logo {
+    img {
+        width: 35%;
+    }
+}
+
+.hcaptcha-container {
+    margin-top: 1em;
+}
